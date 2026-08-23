@@ -1,0 +1,43 @@
+# ── Node / Vite ──────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+coverage/
+
+# ── Java / Gradle ─────────────────────────────────────────
+.gradle/
+**/build/
+*.class
+*.jar
+out/
+game/.gradle/
+
+# ── Environment / secrets ─────────────────────────────────
+.env*
+!.env.example
+
+# ── IDEs ──────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/settings.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.classpath
+.project
+.settings/
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temp files ────────────────────────────────────────────
+.codex_tmp_*
+*.tmp
+*.bak

@@ -1,0 +1,17 @@
+package subject47.world;
+
+public enum EditorPropType {
+    AUTO_DOOR,
+    KEYPAD_DOOR,
+    CONSOLE,
+    LAB_BENCH,
+    SERVER_RACK,
+    STORAGE_CRATE,
+    MEDICAL_CART,
+    WALL_MONITOR,
+    LOCKER_BANK,
+    CEILING_LIGHT,
+    ANALYZER_STATION,
+    TANK_CLUSTER,
+    CONTAINMENT_POD
+}

@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'subject47'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+
+
+    maven { url 'https://jitpack.io' }
+}
+
+def jmeVersion = "3.6.1-stable"
+
+dependencies {
+
+    // CORE ENGINE (this fixes com.jme3.* imports)
+    implementation "org.jmonkeyengine:jme3-core:$jmeVersion"
+    implementation "org.jmonkeyengine:jme3-desktop:$jmeVersion"
+
+    // CHOOSE ONE RENDERER (IMPORTANT)
+    implementation "org.jmonkeyengine:jme3-lwjgl3:$jmeVersion"
+
+    // GRAPHICS FEATURES
+    implementation "org.jmonkeyengine:jme3-effects:$jmeVersion"
+    implementation "org.jmonkeyengine:jme3-plugins:$jmeVersion"
+
+    // AUDIO (OGG support for in-world logs)
+    implementation "org.jmonkeyengine:jme3-jogg:$jmeVersion"
+
+    // MP3 playback for intro music (pure-Java decoder, no native libs needed)
+    implementation "javazoom:jlayer:1.0.1"
+
+    // LOGGING (prevents runtime crashes)
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+}
+
+application {
+    mainClass = 'subject47.Main'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
