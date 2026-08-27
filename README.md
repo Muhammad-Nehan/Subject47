@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# SUBJECT 47
+ SUBJECT 47
 
 **A Psychological Horror Experience**
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🔬 Overview
+##  Overview
 
 **Subject 47** is a first-person psychological horror game set in an abandoned underground research facility. You wake up with no memory as a "repair technician" — unaware that you are the only surviving test subject of a classified human experimentation program. Navigate dark corridors, decrypt terminals, solve puzzles, and piece together the horrifying truth behind Protocol 47.
 
@@ -32,21 +32,21 @@ The project consists of two independent layers:
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🌑 **Atmospheric voxel-art environments** — dark, brutalist corridors built from modular chunks
-- 🎬 **Cinematic intro sequence** — a 20-second scripted camera flythrough with glitch subtitles and post-processing
-- 🔊 **Procedural audio** — ambient drone synthesized via Web Audio API + tuned to the "Subject 47 frequency" (47 Hz)
-- 🖥️ **Interactive terminals & keypads** — in-world interactables that trigger narrative story beats
-- 🚪 **Door & switch puzzles** — control switches, keycodes, and event-driven door logic across 4 levels
-- 📖 **Multi-page narrative modals** — cinematic story pages triggered by terminal interactions
-- 🎭 **Glitch UI effects** — scanlines, chromatic aberration, film grain, hex-grid overlays, pulsing rings
-- 🗺️ **4 hand-crafted levels** — each with unique layout, props, and narrative events
-- 🛠️ **Built-in level editor** — `EditorManager` for placing and inspecting world props in-engine
+-  **Atmospheric voxel-art environments** — dark, brutalist corridors built from modular chunks
+-  **Cinematic intro sequence** — a 20-second scripted camera flythrough with glitch subtitles and post-processing
+-  **Procedural audio** — ambient drone synthesized via Web Audio API + tuned to the "Subject 47 frequency" (47 Hz)
+-  **Interactive terminals & keypads** — in-world interactables that trigger narrative story beats
+-  **Door & switch puzzles** — control switches, keycodes, and event-driven door logic across 4 levels
+-  **Multi-page narrative modals** — cinematic story pages triggered by terminal interactions
+-  **Glitch UI effects** — scanlines, chromatic aberration, film grain, hex-grid overlays, pulsing rings
+-  **4 hand-crafted levels** — each with unique layout, props, and narrative events
+-  **Built-in level editor** — `EditorManager` for placing and inspecting world props in-engine
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Subject47/
@@ -113,7 +113,7 @@ Subject47/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ Subject47/
 
 ---
 
-### ▶️ Running the Cinematic Frontend (React + Three.js)
+###  Running the Cinematic Frontend (React + Three.js)
 
 This layer provides the animated main menu and intro cutscene in a browser.
 
@@ -147,7 +147,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-### ▶️ Running the Java Game Engine (jMonkeyEngine)
+###  Running the Java Game Engine (jMonkeyEngine)
 
 This layer runs the full 3D game with gameplay, levels, and narrative.
 
@@ -161,7 +161,7 @@ Or open the project as a **Gradle project** in IntelliJ IDEA or VS Code (Java Ex
 
 ---
 
-### 🏗️ Building for Production
+###  Building for Production
 
 ```bash
 # Frontend (React)
@@ -173,7 +173,7 @@ npm run build          # Outputs to /dist
 
 ---
 
-## 🎮 Controls
+##  Controls
 
 | Key | Action |
 |---|---|
@@ -185,7 +185,7 @@ npm run build          # Outputs to /dist
 
 ---
 
-## 🗺️ Levels
+##  Levels
 
 | Level | Theme | Key Mechanic |
 |---|---|---|
@@ -196,7 +196,7 @@ npm run build          # Outputs to /dist
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Java Game Layer
 - **[jMonkeyEngine 3.6.1](https://jmonkeyengine.org/)** — 3D game engine
@@ -216,7 +216,7 @@ npm run build          # Outputs to /dist
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 Environment variables (copy `.env.example` → `.env.local`):
 
@@ -227,7 +227,7 @@ Environment variables (copy `.env.example` → `.env.local`):
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
@@ -239,7 +239,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
